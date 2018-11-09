@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0D67A0E2195F55C008BE752 /* v5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0D67A082195F550008BE752 /* v5.mp4 */; };
+		A0D67A0F2195F55C008BE752 /* v2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0D67A092195F556008BE752 /* v2.mp4 */; };
+		A0D67A102195F55C008BE752 /* v3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0D67A0A2195F557008BE752 /* v3.mp4 */; };
+		A0D67A112195F55C008BE752 /* v1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0D67A0B2195F55B008BE752 /* v1.mp4 */; };
+		A0D67A122195F55C008BE752 /* v6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0D67A0C2195F55B008BE752 /* v6.mp4 */; };
+		A0D67A132195F55C008BE752 /* v4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A0D67A0D2195F55C008BE752 /* v4.mp4 */; };
 		A0E0700B2195137C00C41101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E0700A2195137C00C41101 /* AppDelegate.swift */; };
 		A0E070102195137C00C41101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E0700E2195137C00C41101 /* Main.storyboard */; };
 		A0E070122195137F00C41101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E070112195137F00C41101 /* Assets.xcassets */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0D67A082195F550008BE752 /* v5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v5.mp4; sourceTree = "<group>"; };
+		A0D67A092195F556008BE752 /* v2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v2.mp4; sourceTree = "<group>"; };
+		A0D67A0A2195F557008BE752 /* v3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v3.mp4; sourceTree = "<group>"; };
+		A0D67A0B2195F55B008BE752 /* v1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v1.mp4; sourceTree = "<group>"; };
+		A0D67A0C2195F55B008BE752 /* v6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v6.mp4; sourceTree = "<group>"; };
+		A0D67A0D2195F55C008BE752 /* v4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v4.mp4; sourceTree = "<group>"; };
 		A0E070072195137C00C41101 /* VIdeoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIdeoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E0700A2195137C00C41101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0E0700F2195137C00C41101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0D67A142195F5D9008BE752 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				A0D67A0B2195F55B008BE752 /* v1.mp4 */,
+				A0D67A092195F556008BE752 /* v2.mp4 */,
+				A0D67A0A2195F557008BE752 /* v3.mp4 */,
+				A0D67A0D2195F55C008BE752 /* v4.mp4 */,
+				A0D67A082195F550008BE752 /* v5.mp4 */,
+				A0D67A0C2195F55B008BE752 /* v6.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 		A0E06FFE2195137C00C41101 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A0E0700A2195137C00C41101 /* AppDelegate.swift */,
+				A0D67A142195F5D9008BE752 /* Videos */,
 				A0E070262195198B00C41101 /* View */,
 				A0E070272195199B00C41101 /* Controller */,
 				A0E07028219519A300C41101 /* Model */,
@@ -152,8 +178,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D67A132195F55C008BE752 /* v4.mp4 in Resources */,
+				A0D67A0F2195F55C008BE752 /* v2.mp4 in Resources */,
+				A0D67A122195F55C008BE752 /* v6.mp4 in Resources */,
+				A0D67A0E2195F55C008BE752 /* v5.mp4 in Resources */,
 				A0E070152195137F00C41101 /* LaunchScreen.storyboard in Resources */,
 				A0E070122195137F00C41101 /* Assets.xcassets in Resources */,
+				A0D67A102195F55C008BE752 /* v3.mp4 in Resources */,
+				A0D67A112195F55C008BE752 /* v1.mp4 in Resources */,
 				A0E070102195137C00C41101 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

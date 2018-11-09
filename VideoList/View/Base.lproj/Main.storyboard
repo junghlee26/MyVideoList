@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--My Video List-->
+        <!--Video List-->
         <scene sceneID="7j8-0o-o3D">
             <objects>
                 <tableViewController id="oOy-Ec-xwJ" customClass="VideoTableViewController" customModule="VIdeoList" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,17 +26,17 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="v1" translatesAutoresizingMaskIntoConstraints="NO" id="C8d-BS-mvN">
-                                            <rect key="frame" x="16" y="16" width="343" height="225.5"/>
+                                            <rect key="frame" x="16" y="16" width="343" height="226"/>
                                         </imageView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn-play" translatesAutoresizingMaskIntoConstraints="NO" id="qcX-16-OvQ">
-                                            <rect key="frame" x="10" y="185.5" width="64" height="64"/>
+                                            <rect key="frame" x="10" y="186" width="64" height="64"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="64" id="0aS-O0-1Em"/>
                                                 <constraint firstAttribute="height" constant="64" id="x9S-Mr-j8S"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVD-xj-Opa">
-                                            <rect key="frame" x="74" y="207" width="89" height="21"/>
+                                            <rect key="frame" x="74" y="207.5" width="89" height="21"/>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                             <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
@@ -68,7 +68,7 @@
                             <outlet property="delegate" destination="oOy-Ec-xwJ" id="vrR-8m-Cvh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="My Video List" id="Mgn-Zf-pYj"/>
+                    <navigationItem key="navigationItem" title="Video List" id="Mgn-Zf-pYj"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0lX-NI-Z1r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
