@@ -1,9 +1,9 @@
 //
 //  Video.swift
-//  Play Local Videos
+//  VIdeoList
 //
-//  Created by David Tran on 8/21/18.
-//  Copyright © 2018 Wallie. All rights reserved.
+//  Created by Junghoon Lee on 11/8/18.
+//  Copyright © 2018 Junghoon Lee. All rights reserved.
 //
 
 import Foundation
